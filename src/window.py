@@ -35,7 +35,7 @@ class MainWindow(QMainWindow):
         if self.store.error and "ANTHROPIC_API_KEY not found" in self.store.error:
             self.show_api_key_dialog()
         
-        self.setWindowTitle("Grunty Loves Sun")
+        self.setWindowTitle("Grunty")
         self.setGeometry(100, 100, 400, 600)
         self.setMinimumSize(400, 500)  # Increased minimum size for better usability
         
@@ -148,7 +148,7 @@ class MainWindow(QMainWindow):
         title_bar_layout = QHBoxLayout()
         title_bar.setLayout(title_bar_layout)
         
-        title_label = QLabel("SunnyOS Grunty")
+        title_label = QLabel("Grunty")
         title_label.setObjectName("title_label")
         title_label.setFont(QFont("Inter", 16, QFont.Weight.Bold))
         title_label.setStyleSheet("color: #ffffff; padding: 5px;")
