@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=SunnyOS Grunty
+Name=Grunty
 GenericName=Grunty Loves Sun
 Keywords=sunnyos;sunny;sun;grunty;ai;loves;
 TryExec=grunty
 Exec=/usr/bin/grunty
-Comment=SunnyOS Grunty --- Grunty Loves Sun
+Comment=Grunty --- Grunty Loves Sun
 Icon=sunnygrunty
 Terminal=false
 StartupNotify=true
